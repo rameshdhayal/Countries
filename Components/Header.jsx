@@ -11,7 +11,7 @@ export default function Header() {
           <a href="/">Where in the world?</a>
         </h2>
         <p className="contact-us" onClick={() => {
-          console.log("hiii")
+          console.log(hii)
         }}>
           <ContactUs />
 
