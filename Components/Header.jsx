@@ -1,4 +1,5 @@
 import { useTheme } from "../Hooks/useTheme"
+import ContactUs from "./ContactUs"
 
 export default function Header() {
   const [isDark, setIsDark] =  useTheme()
@@ -9,6 +10,12 @@ export default function Header() {
         <h2 className="title">
           <a href="/">Where in the world?</a>
         </h2>
+        <p className="contact-us" onClick={() => {
+          console.log("hiii")
+        }}>
+          <ContactUs />
+
+        </p>
         <p className="theme-changer" onClick={() => {
           setIsDark(!isDark)
           localStorage.setItem('isDarkMode', !isDark)
