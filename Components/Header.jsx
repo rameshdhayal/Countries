@@ -10,7 +10,6 @@ export default function Header() {
         <h2 className="title">
           <a href="/">Where in the world?</a>
         </h2>
-       <a href={ <ContactUs /> }>Contact Us</a>
         <p className="theme-changer" onClick={() => {
           setIsDark(!isDark)
           localStorage.setItem('isDarkMode', !isDark)
