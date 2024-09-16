@@ -13,8 +13,7 @@ export default function Header() {
         <p className="contact-us" onClick={() => {
           console.log(hii)
         }}>
-          <ContactUs />
-
+          Contact Us
         </p>
         <p className="theme-changer" onClick={() => {
           setIsDark(!isDark)
