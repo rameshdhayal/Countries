@@ -1,5 +1,5 @@
 import { useTheme } from "../Hooks/useTheme"
-import ContactUs from "./ContactUs"
+
 
 export default function Header() {
   const [isDark, setIsDark] =  useTheme()
