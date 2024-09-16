@@ -10,11 +10,7 @@ export default function Header() {
         <h2 className="title">
           <a href="/">Where in the world?</a>
         </h2>
-        <p className="contact-us" onClick={() => {
-          console.log(hii)
-        }}>
-          Contact Us
-        </p>
+       <a href={ <ContactUs /> }>Contact Us</a>
         <p className="theme-changer" onClick={() => {
           setIsDark(!isDark)
           localStorage.setItem('isDarkMode', !isDark)
